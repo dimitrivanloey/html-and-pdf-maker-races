@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post Race Reports</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+        html,
+        body {margin: 0px;
+            padding: 0px;
+            font-family: 'Source Sans Pro', sans-serif;}
+            
+        .header {}
+        
+        .title-date-container {color: rgb(38, 33, 97);}
+
+        .times-accuracy {color: grey;
+            margin-left: 0;}
+
+        .email {display: flex;
+            justify-content: flex-end;
+            font-size: 17px;
+            right: 0;}
+
+        a:link {color: rgb(38, 33, 97);
+            text-decoration: none;}
+
+        a:hover {text-decoration: underline;
+            color: rgb(38, 33, 97);}
+
+        .horses {font-family: 'Source Sans Pro', sans-serif;
+            border-collapse: collapse;
+            width: 100%;}
+
+        .horses td,
+        .horses th {border: 1px solid #ddd;
+            padding: 8px;
+            font-family: 'Source Sans Pro', sans-serif;}
+
+        .horses tr:nth-child(even) {background-color: #f2f2f2;}
+
+        .horses tr:hover {background-color: #ddd;}
+
+        .horses th {padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #58575c;
+            color: white;}
+
+
+        td.runnername {column-width: 200px;}
+        td.statcat {display: none;}
+
+        th.statcat {display: none;}
+        th.runnernumber {display: none;}
+        td.runnernumber {display: none;}
+</style>
+
+<meta name="pdfkit-orientation" content="Landscape"/>
+
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+            <div class="race-logo" style="float:left;width:15%;"><img src="/Users/dimitrivanloey/PycharmProjects/from_excel_to_html_jumps/Kempton.png" 
+            alt="Kempton Logo" style="width:180px;height:90px;">
+            </div>
+            <div class="title-date-container" style="float:left;width:60%;margin-top:-20px;text-align:center;">
+                <h1 style="display:inline-block;width: 750px;height: 15px;text-align:left;">1m 3f 219y Bet At racingtv.com Classified Stakes (Div 2)</h1>
+                <h3 style="display:inline-block;width: 750px;height: 15px;text-align:left;">30th January 2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time: 18:00</h3>
+            </div>
+            
+            <div class="racingTV-logo" style="float:right;width:23%;">
+            <img src="/Users/dimitrivanloey/PycharmProjects/from_excel_to_html_jumps/racingTV.png" alt="Racing TV logo" 
+                style="width:300px;height:85px;">
+            </div>
+        </div>
+
+     <table border="0" class="dataframe horses">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Runner</th>
+      <th>Pos</th>
+      <th>Start</th>
+      <th>F2</th>
+      <th>F3</th>
+      <th>F4</th>
+      <th>F5</th>
+      <th>F6</th>
+      <th>F7</th>
+      <th>F8</th>
+      <th>F9</th>
+      <th>F10</th>
+      <th>F11</th>
+      <th>F12</th>
+      <th>Total</th>
+      <th>Last 3f (sec)</th>
+      <th>Last 3f (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aria Rose</td>
+      <td>1</td>
+      <td>14.38</td>
+      <td>12.46</td>
+      <td>13.50</td>
+      <td>13.91</td>
+      <td>13.92</td>
+      <td>13.20</td>
+      <td>13.02</td>
+      <td>13.45</td>
+      <td>13.08</td>
+      <td>12.00</td>
+      <td>12.28</td>
+      <td>12.79</td>
+      <td>2m 37.99s</td>
+      <td>37.07</td>
+      <td>106.55</td>
+    </tr>
+    <tr>
+      <td>Mi Laddo</td>
+      <td>2</td>
+      <td>14.75</td>
+      <td>12.41</td>
+      <td>13.50</td>
+      <td>13.89</td>
+      <td>13.88</td>
+      <td>13.38</td>
+      <td>13.29</td>
+      <td>13.28</td>
+      <td>13.23</td>
+      <td>11.99</td>
+      <td>11.99</td>
+      <td>12.64</td>
+      <td>2m 38.23s</td>
+      <td>36.62</td>
+      <td>108.02</td>
+    </tr>
+    <tr>
+      <td>Bug Boy</td>
+      <td>3</td>
+      <td>15.23</td>
+      <td>12.38</td>
+      <td>13.48</td>
+      <td>13.72</td>
+      <td>14.03</td>
+      <td>13.29</td>
+      <td>13.24</td>
+      <td>13.27</td>
+      <td>13.33</td>
+      <td>11.75</td>
+      <td>12.41</td>
+      <td>12.34</td>
+      <td>2m 38.47s</td>
+      <td>36.50</td>
+      <td>108.54</td>
+    </tr>
+    <tr>
+      <td>Teemlucky</td>
+      <td>4</td>
+      <td>14.36</td>
+      <td>12.47</td>
+      <td>13.48</td>
+      <td>13.92</td>
+      <td>13.92</td>
+      <td>13.38</td>
+      <td>13.26</td>
+      <td>13.32</td>
+      <td>13.17</td>
+      <td>11.94</td>
+      <td>12.83</td>
+      <td>12.66</td>
+      <td>2m 38.71s</td>
+      <td>37.43</td>
+      <td>106.00</td>
+    </tr>
+    <tr>
+      <td>French Kiss</td>
+      <td>5</td>
+      <td>16.12</td>
+      <td>12.31</td>
+      <td>13.48</td>
+      <td>13.24</td>
+      <td>14.04</td>
+      <td>13.22</td>
+      <td>13.24</td>
+      <td>13.34</td>
+      <td>13.33</td>
+      <td>11.68</td>
+      <td>12.77</td>
+      <td>12.98</td>
+      <td>2m 39.75s</td>
+      <td>37.43</td>
+      <td>106.70</td>
+    </tr>
+    <tr>
+      <td>Smiley Bagel</td>
+      <td>6</td>
+      <td>15.65</td>
+      <td>12.38</td>
+      <td>13.48</td>
+      <td>13.53</td>
+      <td>13.98</td>
+      <td>13.32</td>
+      <td>13.28</td>
+      <td>13.20</td>
+      <td>13.27</td>
+      <td>11.88</td>
+      <td>12.94</td>
+      <td>13.47</td>
+      <td>2m 40.38s</td>
+      <td>38.29</td>
+      <td>104.71</td>
+    </tr>
+    <tr>
+      <td>Kerrera</td>
+      <td>7</td>
+      <td>15.21</td>
+      <td>12.21</td>
+      <td>13.50</td>
+      <td>13.80</td>
+      <td>13.98</td>
+      <td>13.38</td>
+      <td>13.25</td>
+      <td>13.12</td>
+      <td>13.08</td>
+      <td>12.02</td>
+      <td>12.95</td>
+      <td>13.91</td>
+      <td>2m 40.41s</td>
+      <td>38.88</td>
+      <td>103.14</td>
+    </tr>
+    <tr>
+      <td>Loco Dempsey</td>
+      <td>8</td>
+      <td>14.23</td>
+      <td>12.38</td>
+      <td>13.48</td>
+      <td>13.89</td>
+      <td>13.98</td>
+      <td>13.36</td>
+      <td>13.03</td>
+      <td>13.47</td>
+      <td>13.03</td>
+      <td>12.79</td>
+      <td>12.93</td>
+      <td>14.35</td>
+      <td>2m 40.92s</td>
+      <td>40.07</td>
+      <td>100.40</td>
+    </tr>
+    <tr>
+      <td>Emojie</td>
+      <td>9</td>
+      <td>16.05</td>
+      <td>12.64</td>
+      <td>13.48</td>
+      <td>13.27</td>
+      <td>14.22</td>
+      <td>13.11</td>
+      <td>13.28</td>
+      <td>13.35</td>
+      <td>13.43</td>
+      <td>11.69</td>
+      <td>13.26</td>
+      <td>13.93</td>
+      <td>2m 41.70s</td>
+      <td>38.88</td>
+      <td>103.98</td>
+    </tr>
+    <tr>
+      <td>Mobham</td>
+      <td>10</td>
+      <td>16.52</td>
+      <td>12.98</td>
+      <td>13.42</td>
+      <td>12.56</td>
+      <td>14.12</td>
+      <td>13.10</td>
+      <td>13.25</td>
+      <td>13.30</td>
+      <td>13.51</td>
+      <td>12.09</td>
+      <td>13.56</td>
+      <td>14.64</td>
+      <td>2m 43.05s</td>
+      <td>40.29</td>
+      <td>101.17</td>
+    </tr>
+    <tr>
+      <td>Lunar Mist</td>
+      <td>11</td>
+      <td>14.58</td>
+      <td>12.52</td>
+      <td>13.50</td>
+      <td>13.92</td>
+      <td>13.90</td>
+      <td>13.34</td>
+      <td>13.19</td>
+      <td>13.26</td>
+      <td>13.24</td>
+      <td>12.90</td>
+      <td>13.80</td>
+      <td>15.30</td>
+      <td>2m 43.45s</td>
+      <td>42.00</td>
+      <td>97.29</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+    <div class="lower-banner">
+        <div class="times-accuracy">
+            <p>Times accurate to +/- 0.2s or more excluding the location accuracy +/-0.5m (approximately 0.03s).
+                </br>One horse length is run in approximately 0.167 seconds on good or firmer ground, 0.18 seconds on
+                good to soft ground and 0.2 seconds or more on soft.</p>
+        </div>
+        <div class="email" style="text-align:right;"><a href="mailto:sectionals@racinguk.tv">sectionals@racinguk.tv</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
